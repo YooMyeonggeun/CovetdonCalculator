@@ -1,4 +1,4 @@
-package Controller;
+package com.example.covetdoncalculator.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RequiredArgsConstructor
 public class MainController {
 
-    @GetMapping(value = {"/main", "/"}) // 메인페이지
+    @GetMapping("/main")
     public String calculator(){
-        System.out.println("들어옴");
         return "main";
     }
+
 }

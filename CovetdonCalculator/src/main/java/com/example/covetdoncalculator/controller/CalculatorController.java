@@ -1,6 +1,5 @@
-package Controller;
+package com.example.covetdoncalculator.controller;
 
-import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,6 +10,5 @@ public class CalculatorController {
 
     @PostMapping("/calculator/")
     public void calculator(){
-
     }
 }
