@@ -5,32 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>계산기 페이지(항해 14기-유명근)</title>
     <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+    <script type="text/javascript" th:src="@{/js/cal.js}"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="js/cal.js"></script>
 </head>
 <body>
 <div class="container">
+    <div class="second">0123</div>
     <div class="screen">0</div>
     <div class="buttons">
-        <div class="button grey">AC</div>
-        <div class="button grey">+/-</div>
-        <div class="button grey">%</div>
+        <div class="button orange">+</div>
+        <div class="button orange">-</div>
+        <div class="button orange">*</div>
         <div class="button orange">/</div>
         <div class="button">7</div>
         <div class="button">8</div>
         <div class="button">9</div>
-        <div class="button orange">*</div>
+        <div class="button grey" id="init">AC</div>
         <div class="button">4</div>
         <div class="button">5</div>
         <div class="button">6</div>
-        <div class="button orange">-</div>
+        <div class="button reslut orange">=</div>
         <div class="button">1</div>
         <div class="button">2</div>
         <div class="button">3</div>
-        <div class="button orange">+</div>
         <div class="button">0</div>
         <div class="button">.</div>
-        <div class="button">()</div>
-        <div class="button orange">=</div>
     </div>
 </div>
 </body>
